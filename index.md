@@ -23,7 +23,7 @@ Synthesis converts the Verilog into logic gates mapped onto the FPGA. Implementa
 When programmed, the Basys3 outputs the VGA test pattern to a monitor, confirming the driver works.
 
 ## **My VGA Design Edit**
-my vga design idea was originally going to be a honda logo with a honda civic pixel art in the background due to the time constraints we had with only being able to work on it in the labs made this a diffucult task as it wasnt complex to make it would just be time consuming so in the end of the project all i managed to make was just the logo 
+my vga design idea was originally going to be a honda logo with a honda civic pixel art in the background due to the time constraints we had with only being able to work on it in the labs made this a diffucult task as it wasnt complex to make it would just be time consuming so in the end of the project all i managed to make was just the logo my inspirtion came from art i found on google [honda civic](https://i.pinimg.com/736x/25/43/d9/2543d9ce122c81c0dc9355dbdc8814b9.jpg)
 ### **Code Adaptation**
 so what ii did to displayb a image i change the colourstripes file as it was the static file i replace rows with smaller lines using row and col to make a h logo wwith also a box around it for a border then i had the background made black by giving all the values 0 bits and made the logo white by giving all the bits 1
 ### **Simulation**
@@ -40,22 +40,3 @@ also befor my main logo was created i tested out flags to fimilarize myself with
 <img src="docs/assets/images/IMG_2131.jpeg">
 
 <img src="docs/assets/images/IMG_2151.jpeg">
-
-
-
-## **More Markdown Basics**
-This is a paragraph. Add an empty line to start a new paragraph.
-
-Font can be emphasised as *Italic* or **Bold**.
-
-Code can be highlighted by using `backticks`.
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list can be rendered as follows:
-- vectors
-- algorithms
-- iterators
-
-Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
-
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
