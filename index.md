@@ -8,7 +8,7 @@ categories: demo
 this is my soc fgpa-vga-verilog project in this project i have edited and modified given files to create a image such as flags or logos . 
 
 
-## **Template VGA Design**
+## **VGA Design**
 ### **Project Set-Up**
 screenshot of summary
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
