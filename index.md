@@ -31,8 +31,11 @@ i ran the code that was altered for the honda logo in vivado simulator they wher
 The synthesis and implementation reports for the custom logo design were very similar to those of the template .timing closure was still achieved without issues. This shows that even with custom pixel patterns, the design remains lightweight and efficient on the Basys3 FPGA.
 ### **Demonstration**
 When programmed onto the Basys3 board, the VGA monitor displayed the Honda logo in white against a black background, inside a border. This confirmed that the adapted design worked correctly in hardware.
+also befor my main logo was created i tested out flags to fimilarize myself with the code
 ![image alt](https://github.com/murphym2004/Fgpa-Vga-Verilog/blob/main/IMG_2154.jpeg?raw=true)
-
+![image alt](https://github.com/murphym2004/Fgpa-Vga-Verilog/blob/3ebe20967ac025209dd1602d18d93ea42502dfca/IMG_2151.jpeg)
+![image alt](https://github.com/murphym2004/Fgpa-Vga-Verilog/blob/3ebe20967ac025209dd1602d18d93ea42502dfca/IMG_2131.jpeg)
+![image alt](https://github.com/murphym2004/Fgpa-Vga-Verilog/blob/3ebe20967ac025209dd1602d18d93ea42502dfca/IMG_2128.jpeg)
 ## **More Markdown Basics**
 This is a paragraph. Add an empty line to start a new paragraph.
 
