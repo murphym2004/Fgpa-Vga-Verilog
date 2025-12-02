@@ -10,14 +10,15 @@ this is my soc fgpa-vga-verilog project in this project i have edited and modifi
 
 ## **Template VGA Design**
 ### **Project Set-Up**
+screenshot of summary
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
 
 ### **Template Code**
-we were given 2 files to work off of one was colourstripes and the other was colourcycle.colourstripes was a setup of code that had rows set up and in each section of pixels there was a colour stripe going across the screen.for the coulour cycle was code that would alternate through colours on the screen for eg (screen would go blue then ren then green ...)this was all sent through using fgpa ports and the fgpa board.
+we were given 2 files to work off of one was colourstripes and the other was colourcycle.colourstripes was a setup of code that had rows set up and in each section of pixels there was a colour stripe going across the screen.for the coulour cycle was code that would alternate through colours on the screen for eg (screen would go blue then ren then green ...)this was all sent through using fgpa ports and the fgpa board.  screenshot of template code 
 ### **Simulation**
-Simulation is used to verify that HSYNC, VSYNC, and RGB outputs behave correctly before programming the FPGA. In Vivado’s simulator, you can check that the sync pulses align with the expected timing and that pixel data changes only during the active display window.
+Simulation is used to verify that HSYNC, VSYNC, and RGB outputs behave correctly before programming the FPGA. In Vivado’s simulator, you can check that the sync pulses align with the expected timing and that pixel data changes only during the active display window.    screenshot of simulation
 ### **Synthesis**
-Synthesis converts the Verilog into logic gates mapped onto the FPGA. Implementation then places and routes those gates into the Basys3’s fabric.
+Synthesis converts the Verilog into logic gates mapped onto the FPGA. Implementation then places and routes those gates into the Basys3’s fabric.    screen shot of synthesis
 ### **Demonstration**
 When programmed, the Basys3 outputs the VGA test pattern to a monitor, confirming the driver works.
 
