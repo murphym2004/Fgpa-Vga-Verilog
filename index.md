@@ -5,9 +5,8 @@ tags: fpga vga verilog
 categories: demo
 ---
 
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. 
+this is my soc fgpa-vga-verilog project in this project i have edited and modified given files to create a image such as flags or logos . 
 
-I am adding a test sentence here at 13:24 on 03/12/24.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
@@ -15,24 +14,24 @@ Summarise the project set-up and design flow. Include a screenshot of your own s
 
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
 ### **Template Code**
-Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+we were given 2 files to work off of one was colourstripes and the other was colourcycle.colourstripes was a setup of code that had rows set up and in each section of pixels there was a colour stripe going across the screen.for the coulour cycle was code that would alternate through colours on the screen for eg (screen would go blue then ren then green ...)this was all sent through using fgpa ports and the fgpa board.
 ### **Simulation**
-Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
+Simulation is used to verify that HSYNC, VSYNC, and RGB outputs behave correctly before programming the FPGA. In Vivado’s simulator, you can check that the sync pulses align with the expected timing and that pixel data changes only during the active display window.
 ### **Synthesis**
-Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
+Synthesis converts the Verilog into logic gates mapped onto the FPGA. Implementation then places and routes those gates into the Basys3’s fabric.
 ### **Demonstration**
-Perhaps add a picture of your demo. Guideline: 1/2 sentences.
+When programmed, the Basys3 outputs the VGA test pattern to a monitor, confirming the driver works.
 
 ## **My VGA Design Edit**
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
+my vga design idea was originally going to be a honda logo with a honda civic pixel art in the background due to the time constraints we had with only being able to work on it in the labs made this a diffucult task as it wasnt complex to make it would just be time consuming so in the end of the project all i manage to make was just the logo 
 ### **Code Adaptation**
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
+so what ii did to displayb a image i change the colourstripes file as it was the static file i replace rows with smaller lines using row and col to make a h logo wwith also a box around it for a border then i had the background made black by giving all the values 0 bits and made the logo white by giving all the bits 1
 ### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
+i ran the code that was altered for the honda logo in vivado simulator they where then confirmed that the timing was correct and rgb outputs showed expected transistors where the logo pixels where defined one important detail was to ensure that the regions were correct where i wanted black the bits would be zero and where i wanted white the bits would be 1.
 ### **Synthesis**
-Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
+The synthesis and implementation reports for the custom logo design were very similar to those of the template .timing closure was still achieved without issues. This shows that even with custom pixel patterns, the design remains lightweight and efficient on the Basys3 FPGA.
 ### **Demonstration**
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+When programmed onto the Basys3 board, the VGA monitor displayed the Honda logo in white against a black background, inside a border. This confirmed that the adapted design worked correctly in hardware.
 
 ## **More Markdown Basics**
 This is a paragraph. Add an empty line to start a new paragraph.
