@@ -5,7 +5,8 @@ tags: fpga vga verilog
 categories: demo
 ---
 
-this is my soc fgpa-vga-verilog project in this project i have edited and modified given files to create a image such as flags or logos . 
+this is my soc fgpa-vga-verilog project in this project i have  modified,simulated,synthesised and demostarted given files to create a image such as flags or logos .
+my project final pitcure was a honda logo but throughout the process of learning what was need to be done i have created flags aswell using the colourstripes file given (pitcure can be found below)
 
 
 ## **VGA Design**
