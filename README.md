@@ -11,6 +11,7 @@ this is my soc fgpa-vga-verilog project in this project i have edited and modifi
 ## **VGA Design**
 ### **Project Set-Up**
 screenshot of summary
+
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
 
 ### **Template Code**
@@ -40,21 +41,31 @@ The synthesis and implementation reports for the custom logo design were very si
 
 ### **Demonstration**
 When programmed onto the Basys3 board, the VGA monitor displayed the Honda logo in white against a black background, inside a border. This confirmed that the adapted design worked correctly in hardware.this code was sent from the board to the monitor by a vga cable 
+
 <img src="docs/assets/images/1200px-Vga-cable.jpg">
+
 also befor my main logo was created i tested out flags to fimilarize myself with the code and learn such placements with circles or pixels 
+
 <img src="docs/assets/images/IMG_2154.jpeg">
 
 <img src="docs/assets/images/IMG_2128.jpeg">
+
 alterations to the code was :
+
 <img src="docs/assets/images/france.PNG">
+
 all that had to be done was to change the colours and have 3 columns take up larger amouts of space to look like a flag which i went with the french colours for convenience
 
 <img src="docs/assets/images/IMG_2131.jpeg">
+
 formula for circle used was :
+
 <img src="docs/assets/images/circle1.PNG">
 <img src="docs/assets/images/circle2.PNG">
+
 all this needed was a full whithe background which was all the bits to be 1 and a circle in the middle which using a standard circle formula 
 
 
 <img src="docs/assets/images/IMG_2151.jpeg">
+
 this was the output of our original code that was given this is the colourstripes file which ended up being alot of colums to make a error screen using all sorts of colours but has the exact same code as the france flag just using more smaller columns
