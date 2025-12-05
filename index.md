@@ -28,17 +28,33 @@ my vga design idea was originally going to be a honda logo with a honda civic pi
 so what i did to displayb a image i change the colourstripes file as it was the static file i replace rows with smaller lines using row and col to make a h logo wwith also a box around it for a border then i had the background made black by giving all the values 0 bits and made the logo white by giving all the bits 1
 formula used to make such logo was
 
+<img src="docs/assets/images/imag2.png">
+
+<img src="docs/assets/images/image.png">
+
 ### **Simulation**
 i ran the code that was altered for the honda logo in vivado simulator they where then confirmed that the timing was correct and rgb outputs showed expected transistors where the logo pixels where defined one important detail was to ensure that the regions were correct where i wanted black the bits would be zero and where i wanted white the bits would be 1.
+
 ### **Synthesis**
 The synthesis and implementation reports for the custom logo design were very similar to those of the template .timing closure was still achieved without issues. This shows that even with custom pixel patterns, the design remains lightweight and efficient on the Basys3 FPGA.
+
 ### **Demonstration**
-When programmed onto the Basys3 board, the VGA monitor displayed the Honda logo in white against a black background, inside a border. This confirmed that the adapted design worked correctly in hardware.
-also befor my main logo was created i tested out flags to fimilarize myself with the code
+When programmed onto the Basys3 board, the VGA monitor displayed the Honda logo in white against a black background, inside a border. This confirmed that the adapted design worked correctly in hardware.this code was sent from the board to the monitor by a vga cable 
+<img src="docs/assets/images/1200px-Vga-cable.jpg">
+also befor my main logo was created i tested out flags to fimilarize myself with the code and learn such placements with circles or pixels 
 <img src="docs/assets/images/IMG_2154.jpeg">
 
 <img src="docs/assets/images/IMG_2128.jpeg">
+alterations to the code was :
+<img src="docs/assets/images/france.PNG">
+all that had to be done was to change the colours and have 3 columns take up larger amouts of space to look like a flag which i went with the french colours for convenience
 
 <img src="docs/assets/images/IMG_2131.jpeg">
+formula for circle used was :
+<img src="docs/assets/images/circle1.PNG">
+<img src="docs/assets/images/circle2.PNG">
+all this needed was a full whithe background which was all the bits to be 1 and a circle in the middle which using a standard circle formula 
+
 
 <img src="docs/assets/images/IMG_2151.jpeg">
+this was the output of our original code that was given this is the colourstripes file which ended up being alot of colums to make a error screen using all sorts of colours but has the exact same code as the france flag just using more smaller columns
