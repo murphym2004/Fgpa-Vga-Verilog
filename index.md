@@ -25,7 +25,9 @@ When programmed, the Basys3 outputs the VGA test pattern to a monitor, confirmin
 ## **My VGA Design Edit**
 my vga design idea was originally going to be a honda logo with a honda civic pixel art in the background due to the time constraints we had with only being able to work on it in the labs made this a diffucult task as it wasnt complex to make it would just be time consuming so in the end of the project all i managed to make was just the logo my inspirtion came from art i found on google [honda civic](https://i.pinimg.com/736x/25/43/d9/2543d9ce122c81c0dc9355dbdc8814b9.jpg)
 ### **Code Adaptation**
-so what ii did to displayb a image i change the colourstripes file as it was the static file i replace rows with smaller lines using row and col to make a h logo wwith also a box around it for a border then i had the background made black by giving all the values 0 bits and made the logo white by giving all the bits 1
+so what i did to displayb a image i change the colourstripes file as it was the static file i replace rows with smaller lines using row and col to make a h logo wwith also a box around it for a border then i had the background made black by giving all the values 0 bits and made the logo white by giving all the bits 1
+formula used to make such logo was
+
 ### **Simulation**
 i ran the code that was altered for the honda logo in vivado simulator they where then confirmed that the timing was correct and rgb outputs showed expected transistors where the logo pixels where defined one important detail was to ensure that the regions were correct where i wanted black the bits would be zero and where i wanted white the bits would be 1.
 ### **Synthesis**
